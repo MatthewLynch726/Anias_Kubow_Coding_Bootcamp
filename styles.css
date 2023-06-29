@@ -15,8 +15,9 @@ section{
     height: 100px; 
     background-color: #234def;
     display: flex;
-    align-content: center;
     justify-content: center;
+    align-items: center;
+
 
 }
 
