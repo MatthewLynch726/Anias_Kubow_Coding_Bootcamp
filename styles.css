@@ -13,11 +13,12 @@ header{
 section{
     width : 100%; 
     height: 100px; 
-    background-color: #234def;
+    background-image: linear-gradient(to right, lightcoral,lightblue );
+    /* background-color: #234def; */
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
 
 }
 
