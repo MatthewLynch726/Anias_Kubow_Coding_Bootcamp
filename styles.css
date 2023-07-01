@@ -52,18 +52,22 @@ section{
     height: 250px;
     background-color: rgb(177,69,21,0.8);
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-info{
     width: 300px;
     height: 300px;
     background: red;
+    margin:5px;
 }
 
 .second{
     width: 300px;
     height: 300px;
     background: red;
+    margin:5px;
 }
 
 .avatar{
