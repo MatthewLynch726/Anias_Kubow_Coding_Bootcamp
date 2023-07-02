@@ -60,6 +60,7 @@ section{
     background: red;
     height: 60%;
     margin:5px;
+    max-width: 300px;
 }
 
 .avatar{
