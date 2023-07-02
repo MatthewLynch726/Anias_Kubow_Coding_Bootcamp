@@ -63,6 +63,14 @@ section{
     max-width: 300px;
 }
 
+.styled-break{
+    width: 30px;
+    height: 5px;
+    background-color: purple;
+    border-radius: 2.5px;
+    margin: 30px 0 30px 0;
+}
+
 .avatar{
     width: 100px;
     border-radius: 50px;
