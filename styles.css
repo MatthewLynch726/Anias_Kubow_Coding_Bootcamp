@@ -63,6 +63,12 @@ section{
     max-width: 300px;
 }
 
+.hero-image{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+}
+
 .styled-break{
     width: 30px;
     height: 5px;
