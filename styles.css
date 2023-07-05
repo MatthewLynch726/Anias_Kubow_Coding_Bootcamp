@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0;;
 }
 
 nav{
@@ -33,15 +34,21 @@ li{
 
 section{
     width : 100%; 
-    height: 100px; 
-    background-image: linear-gradient(to right, lightcoral,lightblue );
-    /* background-color: #234def; */
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
 }
+
+.about-me{
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 #main{
     box-shadow: 10px 10px 5px rgb(101, 64, 236);
@@ -50,14 +57,12 @@ section{
 .hero{
     width: 100%;
     height: 400px;
-    background-color: rgb(177,69,21,0.8);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .hero-info{
-    background: red;
     height: 60%;
     margin:5px;
     max-width: 300px;
