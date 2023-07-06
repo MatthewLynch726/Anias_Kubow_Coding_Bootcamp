@@ -1,3 +1,17 @@
 body{
+    display: flex;
+    flex-direction: column;
     background-color: aquamarine;
+}
+
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }
