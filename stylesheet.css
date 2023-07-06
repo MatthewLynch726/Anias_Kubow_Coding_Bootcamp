@@ -20,8 +20,6 @@ body {
     margin:10px;
 }
 
-<<<<<<< HEAD
-=======
 .inside-middle{
     display: flex;
     flex-direction: column;
@@ -42,7 +40,6 @@ body {
     background-color: orange;
 }
 
->>>>>>> parent of c412831 (a)
 .buttom{
     width: 95%;
     border-radius: 20px;
