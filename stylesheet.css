@@ -4,14 +4,26 @@ body{
     background-color: aquamarine;
 }
 
-.one{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+.nav-bar{
+    width: 95%;
+    border-radius: 20px;
+    height: 50px;
+    background-color: purple;
+    margin:10px;
 }
 
 .two{
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 95%;
+    border-radius: 20px;
+    height: 500px;
+    background-color: orange;
+    margin:10px;
+}
+
+.buttom{
+    width: 95%;
+    border-radius: 20px;
+    height: 200px;
+    background-color: orange;
+    margin:10px;
 }
