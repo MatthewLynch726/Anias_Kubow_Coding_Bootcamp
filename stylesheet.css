@@ -15,9 +15,15 @@ body {
 .two{
     width: 95%;
     border-radius: 20px;
+<<<<<<< HEAD
     min-height: 300px;
     background-color: orange;
     margin: 10px;
+=======
+    height: 500px;
+    background-color: orange;
+    margin:10px;
+>>>>>>> parent of 0b85af8 (Adding divs, encountered same "bug" that is in base)
 }
 
 .buttom{
