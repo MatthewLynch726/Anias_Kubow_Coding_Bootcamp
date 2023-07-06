@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     align-items: center;
     background-color: teal;
 }
@@ -9,6 +10,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+=======
+    background-color: aquamarine;
+}
+
+.nav-bar{
+>>>>>>> parent of 0b85af8 (Adding divs, encountered same "bug" that is in base)
     width: 95%;
     border-radius: 20px;
     height: 50px;
@@ -16,6 +23,7 @@ body {
     margin: 10px;
 }
 
+<<<<<<< HEAD
 .inside-nav {
     width: 45%;
     border-radius: 20px;
@@ -27,6 +35,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+=======
+.two{
+>>>>>>> parent of 0b85af8 (Adding divs, encountered same "bug" that is in base)
     width: 95%;
     border-radius: 20px;
     min-height: 300px;
@@ -34,6 +45,7 @@ body {
     margin: 10px;
 }
 
+<<<<<<< HEAD
 .inside-middle {
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +66,9 @@ body {
 
 .buttom {
     display: flex;
+=======
+.buttom{
+>>>>>>> parent of 0b85af8 (Adding divs, encountered same "bug" that is in base)
     width: 95%;
     border-radius: 20px;
     height: 200px;
