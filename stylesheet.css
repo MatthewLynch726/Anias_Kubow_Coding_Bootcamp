@@ -1,65 +1,62 @@
-body{
+body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: teal;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 95%;
     border-radius: 20px;
     height: 50px;
     background-color: purple;
-    margin:10px;
+    margin: 10px;
 }
 
-.inside-nav{
+.inside-nav {
     width: 45%;
     border-radius: 20px;
     height: 25px;
     background-color: orange;
 }
 
-.middle{
+.middle {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 95%;
     border-radius: 20px;
-    height: 900px;
+    min-height: 300px;
     background-color: orange;
-    margin:10px;
+    margin: 10px;
 }
 
-.inside-middle{
+.inside-middle {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 45%;
     min-width: 300px;
-
     border-radius: 20px;
     height: 75%;
     background-color: purple;
 }
 
-.test{
+.test {
     width: 20px;
     height: 20px;
     background-color: orange;
 }
 
-.buttom{
+.buttom {
     display: flex;
     width: 95%;
     border-radius: 20px;
     height: 200px;
     background-color: orange;
-    margin:10px;
+    margin: 10px;
 }
