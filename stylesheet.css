@@ -1,4 +1,9 @@
 body{
+    /* height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     background-color: lightcoral;
 }
 
@@ -7,9 +12,35 @@ body{
     height: 100px;
     border-radius: 100%;
     background-color: blue;
+    position: relative;
+    margin: 0;
 }
 
 
 .first-circle{
     background-color: blueviolet;
+    top:300px;
+    left: 400px;
+    z-index: 1;
+}
+
+.second-circle{
+    background-color: red;
+    top:250px;
+    left: 400px;
+    z-index: 0;
+}
+
+.third-circle{
+    background-color: yellow;
+    top:200px;
+    left: 400px;
+    z-index: -1;
+}
+
+.fourth-circle{
+    background-color: orange;
+    top:150px;
+    left: 400px;
+    z-index: -2;
 }
