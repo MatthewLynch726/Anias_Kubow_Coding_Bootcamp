@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;  
     background-color: lightcoral;
 }
 
@@ -12,7 +12,7 @@ body{
     height: 100px;
     border-radius: 100%;
     background-color: blue;
-    position: relative;
+    position: absolute;
     margin: 0;
 }
 
@@ -21,26 +21,26 @@ body{
     background-color: blueviolet;
     top:300px;
     left: 400px;
-    z-index: 1;
+    z-index: -2;
 }
 
 .second-circle{
     background-color: red;
     top:250px;
     left: 400px;
-    z-index: 0;
+    z-index: -1;
 }
 
 .third-circle{
     background-color: yellow;
     top:200px;
     left: 400px;
-    z-index: -1;
+    z-index: 0;
 }
 
 .fourth-circle{
     background-color: orange;
     top:150px;
     left: 400px;
-    z-index: -2;
+    z-index: 1;
 }
