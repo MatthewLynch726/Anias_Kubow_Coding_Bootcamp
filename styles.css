@@ -101,7 +101,7 @@ section{
 .button{
     border: 0;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: .75em;
     background-color: orange;
     width: 80px;
     border-radius: 20px;
