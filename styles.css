@@ -138,6 +138,10 @@ footer{
     justify-content: center;
 }
 
+.fa-regular{
+    margin: 5px;
+}
+
 a{
     text-decoration: none;
     color: black;
