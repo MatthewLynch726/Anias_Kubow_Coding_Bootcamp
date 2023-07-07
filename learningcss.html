@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- This is for adding the css -->
     <link rel = "stylesheet" href = "styles.css">
+
+    <!-- This is for adding fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- This is for adding icons -->
+    <script src="https://kit.fontawesome.com/886d4492bc.js" crossorigin="anonymous"></script>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +50,7 @@
         </div>
     </section>
     <section> 
-        <div class = "test"></div>
+        <i class="fa-regular fa-circle-user"></i>
         <div class = "test"></div>
         <div class = "test" id = "main"></div>
         <div class = "test"></div>
@@ -53,29 +59,39 @@
     <section>
         <form>
             <h2>Contact Me</h2>
-            <label for = "first-name"> First Name:</label>
-            <input type = "text" id = "first-name" name = "first-name" Value = "John"> </input>
-            <label for = "last-name"> First Name:</label>
-            <input type = "text" id = "last-name" name = "last-name" Value = "Doe"> </input>
 
+            <div class = "input-section">
+                <div class = "input-group">
+                    <label for = "first-name"> First Name:</label>
+                    <input type = "text" id = "first-name" name = "first-name" Value = "John"> </input>
+                </div>
+                <div class = "input-group">
+                    <label for = "last-name"> First Name:</label>
+                    <input type = "text" id = "last-name" name = "last-name" Value = "Doe"> </input>
+                </div>
+            </div>
             
-            <input type = "radio" id = "office" name = "office" value = "office"></input>
-            <label for = "office">Office</label>
+            <div class = "input-section">
+                <input type = "radio" id = "office" name = "office" value = "office"></input>
+                <label for = "office">Office</label>
 
-            <input type = "radio" id = "remote" name = "remote" value = "remote"></input>
-            <label for = "remote">remote</label>
+                <input type = "radio" id = "remote" name = "remote" value = "remote"></input>
+                <label for = "remote">remote</label>
 
-            <input type = "radio" id = "other" name = "other" value = "other"></input>
-            <label for = "other">other</label>
+                <input type = "radio" id = "other" name = "other" value = "other"></input>
+                <label for = "other">other</label>
+            </div>
+                
+            <div class = "input-section">
+                <input type = "checkbox" id = "contract" name = "contract" value="contract"></input>
+                <label for = "contact">contract</label>
 
-            <input type = "checkbox" id = "contract" name = "contract" value="contract"></input>
-            <label for = "contact">contract</label>
+                <input type = "checkbox" id = "full-time" name = "full-time" value="full-time"></input>
+                <label for = "full-time">full-time</label>
 
-            <input type = "checkbox" id = "full-time" name = "full-time" value="full-time"></input>
-            <label for = "full-time">full-time</label>
-
-            <input type = "checkbox" id = "sponsorship" name = "sponsorship" value="sponsorship"></input>
-            <label for = "sponsorship">sponsorship</label>
+                <input type = "checkbox" id = "sponsorship" name = "sponsorship" value="sponsorship"></input>
+                <label for = "sponsorship">sponsorship</label>
+            </div>
 
             <input class = "button" type = "submit" value = "submit"></input>
         </form>
