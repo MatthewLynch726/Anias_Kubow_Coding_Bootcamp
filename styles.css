@@ -74,6 +74,17 @@ section{
     display : inline-block
 }
 
+@media only screen and (max-width: 700px){
+    .hero-info{
+        max-width: 700px;
+    }
+
+    .hero-image{
+        visibility: hidden;
+        height: 0px;
+    }
+}
+
 .styled-break{
     width: 30px;
     height: 5px;
@@ -136,6 +147,12 @@ form{
 footer{
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 500px){
+    footer{
+        background-color: lightblue;
+    }
 }
 
 .fa-regular{
