@@ -5,7 +5,7 @@ body {
   }
   
   .face {
-    /* position: absolute; */
+    position: absolute;
     background-color: bisque;
     height: 150px;
     width: 150px;
