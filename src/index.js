@@ -10,3 +10,8 @@ function moveBob(){
 
 bob.addEventListener('click', moveBob)
 
+const string = "say cheese, "
+const string2  = "Ania"
+
+console.log(string.concat(string2))
+
