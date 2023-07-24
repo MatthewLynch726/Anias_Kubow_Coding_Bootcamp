@@ -15,3 +15,25 @@ const string2  = "Ania"
 
 console.log(string.concat(string2))
 
+const housemates2018 = [
+    {
+        name: 'Ahmed',
+        age: 24
+    },
+
+    {
+        name: 'Ellen',
+        age: 35
+    },
+
+    {
+        name: 'Woody',
+        age: 30
+    },
+
+]
+
+
+const housemates2021 = housemates2018.map(mate => mate.age + 3)
+
+console.log(housemates2021)
