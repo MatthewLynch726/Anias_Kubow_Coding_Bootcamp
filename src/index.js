@@ -34,3 +34,42 @@
 
 // console.log(getTotal(tempArray))
 
+//.....................................
+
+//USING EVERY FUNCTION
+// using 'every' write a function that checks whether every number in an array is a square number
+
+// const tempArray = [9,16,81]
+
+// function checkSquares(tempArray){
+//    return tempArray.every((number) => (Math.sqrt(number) % 1 === 0)
+//     )
+// }
+
+// console.log(checkSquares(tempArray))
+
+//.................................
+
+//Using an array method, write a function that returns the string elements of an array that have a given length or larger
+
+// const wordsArray = ['Florida', 'dog','phone']
+// const number = 5
+
+// function getWords(tempArray, number){
+//     return tempArray.filter(word => word.length >= number)
+// }
+
+
+// console.log(getWords(wordsArray, number))
+
+//.............................
+
+//Using an array method, write a function that converts an array of cm values as strings, into an array of numbers
+
+tempArray = ['23cm', '5.6cm', '1000cm']
+
+function getValues(tempArray){
+    return tempArray.map(value => parseFloat(value))
+}
+
+console.log(getValues(tempArray))
