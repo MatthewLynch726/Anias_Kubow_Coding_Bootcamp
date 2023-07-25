@@ -66,10 +66,41 @@
 
 //Using an array method, write a function that converts an array of cm values as strings, into an array of numbers
 
-tempArray = ['23cm', '5.6cm', '1000cm']
+// tempArray = ['23cm', '5.6cm', '1000cm']
 
-function getValues(tempArray){
-    return tempArray.map(value => parseFloat(value))
+// function getValues(tempArray){
+//     return tempArray.map(value => parseFloat(value))
+// }
+
+// console.log(getValues(tempArray))
+
+//..................................................
+
+// const problemArray = "In West Philadephia, born and raised"
+// const vowels = ['a','e','i', 'o','u']
+
+// function getVowelCount(problemArray){
+//     problemArray = problemArray.toLowerCase()
+//     const tempArray = problemArray.split('')
+//     const filteredArray = tempArray.filter(character => vowels.includes(character))
+//     return filteredArray.length
+// }
+
+// console.log(getVowelCount(problemArray))
+
+//....................................................
+
+// Write a function that capitalises the first letter of each word in a sentence
+
+tempArray = "the queens gambit"
+
+function capitalise(tempArray){
+    splitArray = tempArray.split(" ")
+    finalArray = splitArray.map(word => 
+        word.charAt(0).toUpperCase() + word.slice(1) 
+    );
+    finalArray = finalArray.join(' ')
+    return finalArray
 }
 
-console.log(getValues(tempArray))
+console.log(capitalise(tempArray))
