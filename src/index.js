@@ -1,7 +1,7 @@
 const box = document.querySelector('.hexagon')
 
 function alertMe(){
-    console.log("Alerted!")
+    box.
 }
 
 box.addEventListener('click', alertMe)
